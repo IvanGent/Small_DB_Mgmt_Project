@@ -5,7 +5,8 @@
 -- |------------------------|----------|
 -- | aa_times               | 6g73WE2V |
 -- | project_management_app | Q3HphPJ8 |
-
+CREATE USER aa_times WITH PASSWORD '6g73WE2V';
+CREATE USER project_management_app WITH PASSWORD 'Q3HphPJ8';
 
 
 
@@ -13,3 +14,4 @@
 -- | name       | password |
 -- |------------|----------|
 -- | data_admin | ik2fiDri |
+CREATE USER data_admin WITH PASSWORD 'ik2fiDri' SUPERUSER;
